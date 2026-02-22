@@ -3,7 +3,8 @@
     "email": "23f2004440@ds.study.iitm.ac.in",
     "version": "7fc32159"
   },
-  "products": [{
+  "products": [
+  {
     "id": "prod-7fc32159-001",
     "name": "Elite Item 1",
     "category": "books",
