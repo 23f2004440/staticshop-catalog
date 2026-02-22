@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "email": "23f2004440@ds.study.iitm.ac.in",
+    "version": "7fc32159"
+  },
+  "products": [
+    { "id": 1, "name": "Wireless Mouse", "category": "electronics", "price": 799.99, "stock": 120, "rating": 4.5 },
+    { "id": 2, "name": "Bluetooth Headphones", "category": "electronics", "price": 2499.50, "stock": 60, "rating": 4.6 },
+    { "id": 3, "name": "Gaming Keyboard", "category": "electronics", "price": 1999.00, "stock": 80, "rating": 4.4 },
+    { "id": 4, "name": "LED Monitor 24-inch", "category": "electronics", "price": 10999.00, "stock": 35, "rating": 4.7 },
+    { "id": 5, "name": "USB-C Charger", "category": "electronics", "price": 999.00, "stock": 150, "rating": 4.3 },
+
+    { "id": 6, "name": "Cotton T-Shirt", "category": "fashion", "price": 499.00, "stock": 200, "rating": 4.2 },
+    { "id": 7, "name": "Denim Jeans", "category": "fashion", "price": 1499.00, "stock": 90, "rating": 4.4 },
+    { "id": 8, "name": "Sneakers", "category": "fashion", "price": 2999.00, "stock": 70, "rating": 4.6 },
+    { "id": 9, "name": "Leather Wallet", "category": "fashion", "price": 899.00, "stock": 110, "rating": 4.3 },
+
+    { "id": 10, "name": "Cookware Set", "category": "home", "price": 2500.00, "stock": 5, "rating": 4.1 },
+    { "id": 11, "name": "Vacuum Cleaner", "category": "home", "price": 5500.00, "stock": 4, "rating": 4.5 },
+    { "id": 12, "name": "Air Purifier", "category": "home", "price": 8000.00, "stock": 3, "rating": 4.6 },
+    { "id": 13, "name": "Dining Table", "category": "home", "price": 15000.00, "stock": 2, "rating": 4.4 },
+    { "id": 14, "name": "Sofa Set", "category": "home", "price": 20000.00, "stock": 2, "rating": 4.7 },
+    { "id": 15, "name": "Microwave Oven", "category": "home", "price": 10490.00, "stock": 2, "rating": 4.5 },
+
+    { "id": 16, "name": "Notebook Pack", "category": "stationery", "price": 199.00, "stock": 300, "rating": 4.0 },
+    { "id": 17, "name": "Ball Pen Set", "category": "stationery", "price": 149.00, "stock": 400, "rating": 4.1 },
+    { "id": 18, "name": "Desk Organizer", "category": "stationery", "price": 499.00, "stock": 150, "rating": 4.3 },
+
+    { "id": 19, "name": "Yoga Mat", "category": "fitness", "price": 899.00, "stock": 85, "rating": 4.4 },
+    { "id": 20, "name": "Dumbbell Set", "category": "fitness", "price": 2499.00, "stock": 40, "rating": 4.5 }
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 5
+    },
+    "fashion": {
+      "count": 4
+    },
+    "home": {
+      "count": 6,
+      "inventoryValue": 115472.50
+    },
+    "stationery": {
+      "count": 3
+    },
+    "fitness": {
+      "count": 2
+    }
+  }
+}
